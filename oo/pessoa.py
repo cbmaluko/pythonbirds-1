@@ -17,3 +17,10 @@ if __name__ == '__main__':
 
     for filho in mathias.filhos:
         print(filho.nome)
+    mathias.sobrenome='Assis'
+    del mathias.filhos
+    del mathias.sobrenome
+    del filho1.filhos
+    print(mathias.__dict__)
+    print(filho1.__dict__)
+
